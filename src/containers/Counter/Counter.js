@@ -6,10 +6,7 @@ import CounterOutput from '../../components/CounterOutput/CounterOutput';
 import * as actionType from '../../store/action';
 
 class Counter extends Component {
-    state = {
-        counter: 0,
-        
-    }
+    
 
     counterChangedHandler = ( action, value ) => {
         switch ( action ) {
